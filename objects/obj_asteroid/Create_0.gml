@@ -7,14 +7,11 @@ randomize();
 /// @DnDVersion : 1
 /// @DnDHash : 4A93FDEB
 /// @DnDInput : 3
-/// @DnDApplyTo : 6566dcad-6a5b-42f4-a616-26028841caea
 /// @DnDArgument : "var" "sprite_index"
 /// @DnDArgument : "option" "spr_asteroid_small"
 /// @DnDArgument : "option_1" "spr_asteroid_medium"
 /// @DnDArgument : "option_2" "spr_asteroid_huge"
-with(obj_asteroid) {
 sprite_index = choose(spr_asteroid_small, spr_asteroid_medium, spr_asteroid_huge);
-}
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
